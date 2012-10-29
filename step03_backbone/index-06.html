@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Session supplements</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="Lars Karg, Twitter: @larskarg">
+
+    <!-- Le styles -->
+
+    <link href="assets/css/bootstrap-2.1.0.css" rel="stylesheet">
+    <link href="assets/css/bootstrap-responsive-2.1.0.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet">
+    
+
+    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
+    <!--[if lt IE 9]>
+      <script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+
+  </head>
+
+  <body>
+
+    <!-- Template AppView
+    ================================================== -->
+    <script id="appview-tpl" type="text/x-handlebars-template">
+
+    <div class="navbar navbar-inverse navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+
+          <a class="brand" href="#home">Session supplements</a>
+
+          <div class="nav-collapse collapse">
+            <ul class="nav">
+              <li class="active">
+                <a href="#home"><i class="icon-home icon-white"></i> HOME<br/>Start over</a>
+              </li>
+              <li class="">
+                <a href="#chapter1"><i class="icon-book icon-white"></i> CHAPTER 1<br/>Get started</a>
+              </li>
+              <li class="">
+                <a href="#chapter2"><i class="icon-book icon-white"></i> CHAPTER 2<br/>Get results fast</a>
+              </li>
+              <li class="">
+                <a href="#chapter3"><i class="icon-book icon-white"></i> CHAPTER 3<br/>Experience social</a>
+              </li>
+              <li class="">
+                <a href="#chapter4"><i class="icon-book icon-white"></i> CHAPTER 4<br/>Give back</a>
+              </li>
+              <li class="">
+                <a href="#chapter5"><i class="icon-book icon-white"></i> CHAPTER 5<br/>Achieve quality</a>
+              </li>
+              <li class="">
+                <a href="#chapter6"><i class="icon-book icon-white"></i> CHAPTER 6<br/>Co–innovate</a>
+              </li>
+              <li class="">
+                <a href="#about"><i class="icon-info-sign icon-white"></i> ABOUT<br/>Learn more</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+    <header>
+      <div class="container">
+        <img class="header-img" src="img/{{icon}}"></img>
+        <div class="header-inner">
+          <h1 class="header-title">{{title}}</h1>
+          <p class="header-subtitle">{{sub_title}}</p>
+        </div>
+      </div>
+    </header>
+
+    <div class="container">
+
+      {{{content}}}
+
+    </div>
+
+    <div id="dashboard" class="container dashboard"></div>
+
+    <footer class="navbar navbar-inverse navbar-fixed-bottom">
+      <div class="navbar-inner">
+        <div class="container">
+          <p style="padding: 10px 10px 0px 10px;">Designed and implemented with joy, using awesome <a href="http://twitter.github.com/bootstrap/" rel="external">Twitter Bootstrap</a>, <a href="http://backbonejs.org/" rel="external">BackboneJS</a> and many more cool open source projects. <a href="#about">Learn more</a>!</p>
+        </div>
+      </div>
+    </footer>
+    </script>
+
+
+
+    <!-- Template DashboardWidget
+    ================================================== -->
+    <script id="dashboardwidget-tpl" type="text/x-handlebars-template">
+
+      <div class="row-fluid">
+
+        <div class="span3">
+          <div class="dashboard-box dashboard-leaderboard-col">
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 1</b><br/>
+                    <span class="badge dashboard-badge-tweets">6</span>
+                    <span class="badge dashboard-badge-retweets">8</span>
+                    <br/>&nbsp; 
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 2</b><br/>
+                    <span class="badge dashboard-badge-tweets">6</span>
+                    <span class="badge dashboard-badge-retweets">8</span>
+                    <br/>&nbsp; 
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 3</b><br/>
+                    <span class="badge dashboard-badge-tweets">6</span>
+                    <span class="badge dashboard-badge-retweets">8</span>
+                    <br/>&nbsp; 
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 4</b><br/>
+                    <span class="badge dashboard-badge-tweets">6</span>
+                    <span class="badge dashboard-badge-retweets">8</span>
+                    <br/>&nbsp; 
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 5</b><br/>
+                    <span class="badge dashboard-badge-tweets">6</span>
+                    <span class="badge dashboard-badge-retweets">8</span>
+                    <br/>&nbsp; 
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-caption">Leaderboard</div>
+
+          </div>
+
+        </div>        
+
+
+        <div class="span3">
+
+          <div class="dashboard-box dashboard-hottest-col">
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 1</b><br/>
+                    Donec id elit non mi Donec id elit non mi Donec id elit non mi Donec id elit non mi Doc id elit non mi sdf sdfsdf sffdss sff sfsdf sfsdfss sd<br/>
+                    <i>2012-08-20</i>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 2</b><br/>
+                    Donec id elit non mi Donec id elit non mi Donec id elit non mi Donec id elit non mi Doc id elit non mi sdf sdfsdf sffdss sff sfsdf sfsdfss sd<br/>
+                    <i>2012-08-20</i>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 3</b><br/>
+                    Donec id elit non mi Donec id elit non mi Donec id elit non mi Donec id elit non mi Doc id elit non mi sdf sdfsdf sffdss sff sfsdf sfsdfss sd<br/>
+                    <i>2012-08-20</i>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-caption">Hottest tweets</div>
+
+          </div>
+
+        </div>
+
+        <div class="span3">
+
+          <div class="dashboard-box dashboard-lattest-col">
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 4</b><br/>
+                    Donec id elit non mi Donec id elit non mi Donec id elit non mi Donec id elit non mi Doc id elit non mi sdf sdfsdf sffdss sff sfsdf sfsdfss sd<br/>
+                    <i>2012-08-20</i>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 5</b><br/>
+                    Donec id elit non mi Donec id elit non mi Donec id elit non mi Donec id elit non mi Doc id elit non mi sdf sdfsdf sffdss sff sfsdf sfsdfss sd<br/>
+                    <i>2012-08-20</i>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-item dashboard-item-margin">
+
+                <div class="dashboard-item-margin-left">
+                  <img class="img-rounded dashboard-icon" src="img/icon_twitter.png"></img>
+                  <div class="dashboard-text">
+                    <b>USERNAME 6</b><br/>
+                    Donec id elit non mi Donec id elit non mi Donec id elit non mi Donec id elit non mi Doc id elit non mi sdf sdfsdf sffdss sff sfsdf sfsdfss sd<br/>
+                    <i>2012-08-20</i>
+                  </div>
+                </div>
+
+              </div>
+
+              <div class="dashboard-caption">Latest tweets</div>
+
+          </div>
+
+        </div>
+
+        <div class="span3">
+          
+          <div class="dashboard-box dashboard-tweets-col">
+            <div class="dashboard-tweet-item dashboard-number dashboard-item-margin">150&nbsp;</div>
+            <div class="dashboard-caption">Tweets</div>
+          </div>
+
+          <div class="dashboard-box dashboard-retweets-col">
+            <div class="dashboard-tweet-item dashboard-number dashboard-item-margin">150&nbsp;</div>
+            <div class="dashboard-caption">Retweets</div>
+          </div>
+
+        </div>
+
+      </div>
+
+    </div>
+    </script>
+
+
+    <!-- Le javascript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="assets/js/jquery-1.7.2.js"></script>
+    <script src="assets/js/bootstrap-2.1.0.js"></script>
+
+    <script src="assets/js/underscore-1.3.3.js"></script>
+    <script src="assets/js/json2.js"></script>
+    <script src="assets/js/backbone-0.9.2.js"></script>
+    <script src="assets/js/handlebars-1.0.0.beta.6.js"></script>
+
+    <!-- Files needed for fake-server.js -->
+    <script src="assets/js/sinon-1.4.2.js"></script>
+    <script src="assets/js/sinon-ie-1.4.2.js"></script>
+    <script src="js/fake-server.js"></script>
+
+    <script src="js/app-06.js"></script>
+
+  </body>
+</html>

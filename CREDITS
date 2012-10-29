@@ -1,0 +1,29 @@
+This program references the following third party open source or other free download components. 
+The third party licensors of these components may provide additional license rights, 
+terms and conditions and/or require certain notices as described below. 
+
+Twitter Bootstrap (http://twitter.github.com/bootstrap/)
+Licensed under Apache License, Version 2.0 - http://www.apache.org/licenses/LICENSE-2.0
+
+jQuery (http://jquery.com/)
+Licensed under MIT - https://github.com/jquery/jquery/blob/master/MIT-LICENSE.txt
+
+Font Awesome (http://fortawesome.github.com/Font-Awesome/)
+Licensed under CC BY 3.0 - http://creativecommons.org/licenses/by/3.0/
+
+Glyphicons Free (http://glyphicons.com/)
+Licensed under CC BY 3.0 - http://creativecommons.org/licenses/by/3.0/
+The Noun Project (http://thenounproject.com/)The 'Home' symbol (http://thenounproject.com/noun/home/#icon-No293)
+Licensed under CC BY 3.0 - by The Noun Project - http://creativecommons.org/licenses/by/3.0/
+The 'book' symbol (http://thenounproject.com/noun/book/#icon-No2248)Licensed under CC0 - by Foomandoonian - https://creativecommons.org/about/cc0The 'information' symbol (http://thenounproject.com/noun/information/#icon-No908)
+Licensed under CC BY 3.0 - by Sven Hofmann - http://creativecommons.org/licenses/by/3.0/Backbone.js (http://backbonejs.org/)
+Licensed under MIT - http://github.com/documentcloud/backbone/blob/master/LICENSEjson2.js (https://github.com/douglascrockford/JSON-js)
+Public domain
+Underscore.js (http://underscorejs.org/)
+License under MIT - https://github.com/documentcloud/underscore/blob/master/LICENSE
+Handlebars (http://handlebarsjs.com/)
+License under MIT - https://github.com/wycats/handlebars.js/blob/master/LICENSE
+SinonJS (http://sinonjs.org/)
+Licensed under BSD - https://github.com/cjohansen/Sinon.JS/blob/master/LICENSE
+Jasmine (http://pivotal.github.com/jasmine/)
+Licensed under MIT - https://github.com/pivotal/jasmine/blob/master/MIT.LICENSE

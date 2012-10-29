@@ -1,0 +1,56 @@
+/* nav collapsed */
+@media (max-width: 979px) {
+  body {
+    padding-top: 0px !important;
+  }
+  header {
+    padding-top: 0px !important;
+  }
+}
+
+/* 2 nav lines */
+@media (min-width: 979px) and (max-width: 1200px) { 
+  header {
+    padding-top: 80px !important;
+  }
+}
+
+
+body {
+  position: relative;
+  padding-top: 40px;
+}
+
+body > .navbar-fixed-top {
+  font-size: 13px;
+}
+
+.container-padding {
+  padding-top: 20px;
+}
+
+header {
+  padding-top: 40px;
+}
+
+.header-img {
+  float: left;
+  padding-right: 20px;
+  padding-bottom: 10px;
+  width: 80px;
+}
+
+.header-inner {
+  padding-top: 15px;
+}
+
+.header-title {
+  font-size: 60px;
+  color: #FF8A25;
+}
+
+.header-subtitle {
+  font-size: 18px;
+  line-height: 24px;
+}
+
