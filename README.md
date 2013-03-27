@@ -1,4 +1,4 @@
-SAP NetWeaver Cloud Samples - Responsive UI
+SAP HANA Cloud Samples - Responsive UI
 ========
 
 
@@ -19,7 +19,7 @@ Several icons from [Glyphicons Free](http://glyphicons.com/), licensed under CC 
 Quick start
 -----------
 
-Clone the repo, `git clone https://github.com/sapnwcloud/responsiveUI.git`, or [download the latest release](https://github.com/sapnwcloud/responsiveUI/zipball/master).
+Clone the repo, `git clone https://github.com/sap/cloud-responsive-ui.git`, or [download the latest release](https://github.com/sap/cloud-responsive-ui/zipball/master).
 
 
 Versioning
