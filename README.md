@@ -2,7 +2,7 @@ SAP HANA Cloud Samples - Responsive UI
 ========
 
 
-[CD208sups](https://cd208.netweaver.ondemand.com/) is a responsive web application for showcasing the power of open source and [SAP NetWeaver Cloud](http://scn.sap.com/community/developer-center/cloud-platform). It hosts the supplements of SAPs TechEd 2012 session [Tapping into Open Source with SAP NetWeaver Cloud](http://www2.sapevents.com/SAP/TechEd2012/index.cfm?fuseaction=agenda.sessioncataloguehos&sid=9600_23967) and serves as a central entry point to the content. In addition, the application integrates a simple Twitter dashboard.
+[CD208sups](https://cd208.netweaver.ondemand.com/) is a responsive web application for showcasing the power of open source and [SAP HANA Cloud](http://scn.sap.com/community/developer-center/cloud-platform). It hosts the supplements of SAPs TechEd 2012 session [Tapping into Open Source with SAP HANA Cloud](http://www2.sapevents.com/SAP/TechEd2012/index.cfm?fuseaction=agenda.sessioncataloguehos&sid=9600_23967) and serves as a central entry point to the content. In addition, the application integrates a simple Twitter dashboard.
 
 The frontend part, hosted in this repository, leverages the following open source frameworks:
 * [Twitter Bootstrap](http://twitter.github.com/bootstrap/)
@@ -25,7 +25,7 @@ Clone the repo, `git clone https://github.com/sap/cloud-responsive-ui.git`, or [
 Versioning
 ----------
 
-For transparency and insight into our release cycle, and for striving to maintain backward compatibility, the SAP NetWeaver Cloud - Samples project will be maintained under the Semantic Versioning guidelines as much as possible.
+For transparency and insight into our release cycle, and for striving to maintain backward compatibility, the SAP HANA Cloud - Samples project will be maintained under the Semantic Versioning guidelines as much as possible.
 
 Releases will be numbered with the following format:
 
@@ -52,7 +52,7 @@ Authors
 Copyright and license
 ---------------------
 
-Copyright 2012 SAP AG
+Copyright 2013 SAP AG
 
 Licensed under the Apache License, Version 2.0 (the "License");
 you may not use this work except in compliance with the License.
