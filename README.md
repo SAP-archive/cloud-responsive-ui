@@ -10,7 +10,7 @@ The frontend part, hosted in this repository, leverages the following open sourc
 * [Underscore.JS](http://underscorejs.org/)
 * [jQuery](http://jquery.com/)
 * [json2](https://github.com/douglascrockford/JSON-js)
-* [Jasmine.JS](http://pivotal.github.com/jasmine/)
+* [Jasmine.JS](https://jasmine.github.io/)
 * [Sinon.JS](http://sinonjs.org/)
 
 Several icons from [Glyphicons Free](http://glyphicons.com/), licensed under CC BY 3.0, are used. In addition, the frontend relies on three icons from [The Noun Project](http://thenounproject.com/): The ["home"](http://thenounproject.com/noun/home/#icon-No293) symbol by the noun project itself (licensed under CC BY 3), the ["book"](http://thenounproject.com/noun/book/#icon-No2248) symbol by Foomandoonian (licensed under CC0), and the ["information"](https://cd208.netweaver.ondemand.com/_http://thenounproject.com/noun/book/#icon-No2249) symbol by Sven Hofmann (licensed under CC BY 3), from [The Noun Project collection](http://thenounproject.com/).
